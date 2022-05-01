@@ -38,6 +38,12 @@ pub fn strings(){
     s.push('a');
     s.push('b');
 
+    // Assertion left equal to right 
+    //assert_eq!(3, s.len());              //'assertion failed: `(left == right)'
+    assert_eq!(2, s.len());      
+    // assert_eq!(11, s.capacity());         //'assertion failed: `(left == right)`
+    assert_eq!(10, s.capacity());
+
     println!("{} {}", growable_str, s);
 
 
