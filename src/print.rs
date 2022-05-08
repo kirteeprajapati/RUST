@@ -1,4 +1,7 @@
 pub fn run(){
+    // Beginning of print.rs
+    println!("=========================Print.rs starts here========================\n");
+
     // print in console
     println!("Hello World from console via print.rs file");
 
@@ -19,4 +22,7 @@ pub fn run(){
 
     // Basic Math
     println!("10 +10 = {}", 10+10);
+
+    // end of line
+    println!("=========================Print.rs ends here========================\n")
 }

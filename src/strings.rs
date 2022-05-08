@@ -2,6 +2,10 @@
 // String = Growable, heap-allocated data structure - Use when you need to modify or own string data
 
 pub fn strings(){
+
+    // Begin of Strings
+    println!("=========================Strings.rs starts here========================\n");
+
     let hello = "Hello Rust!";   //Immutable fixed-length 
     let mut growable_str = String::from("Hello this sting is growable and heap-allocated data type");
     println!("Immutable string: {}, Mutable string: {}", hello, growable_str);
@@ -46,5 +50,7 @@ pub fn strings(){
 
     println!("{} {}", growable_str, s);
 
+    // End of Strings
+    println!("=========================Strings.rs starts here========================\n");
 
 }

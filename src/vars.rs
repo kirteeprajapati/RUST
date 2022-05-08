@@ -3,6 +3,9 @@
 // Rust is a block-scoped language
 
 pub fn var(){
+    // Beginning of print.rs
+    println!("=========================Vars.rs starts here========================\n");
+
     let name = "Kirtee";
     let mut age = 19;
     println!("My name is {}, M {} from {}", name, age, "India");
@@ -16,4 +19,8 @@ pub fn var(){
     // Assign multiple variables
     let (my_name, my_age) = ("Kirtee", 19);
     println!("{} is {}", my_name, my_age);
+
+    // End of Vars.rs
+    println!("=========================Vars.rs starts here========================\n");
+
 }

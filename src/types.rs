@@ -16,6 +16,9 @@ Arrays
 
 
 pub fn types(){
+    // Beginning of Types.rs
+    println!("=========================Types.rs starts here========================\n");
+
     
     let x = 1;     // Default is i32
 
@@ -36,4 +39,8 @@ pub fn types(){
     let face = '\u{1F600}';
 
     println!("{:?}", (x, y, z, is_active, is_greater, a1,face));    // (1, 2.4, 4343254543234322, true, false)
+
+    // End of print.rs
+    println!("=========================T.Types starts here========================\n");
+
 } 
