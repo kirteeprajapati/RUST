@@ -40,6 +40,10 @@ impl Person{                            //impl = impliment
 }
 
 pub fun structs(){
+        
+    // Beginning of Structs
+    println!("=========================Structs.rs starts here========================\n");
+
     let mut c = Color{
         red: 255,
         green: 0,
@@ -64,4 +68,8 @@ pub fun structs(){
     println!("Person {}", p.full_name());    
         
     println!("Person Tuple {:?}", p.to_tuple());
+    
+    // End of Structs
+    println!("=========================Structs.rs Ends here========================\n");
+
 }
