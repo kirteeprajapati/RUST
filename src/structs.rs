@@ -9,7 +9,7 @@ struct Color{
 
 // Tuple Struct
 struct Color_tup(u8, u8, u8);
-
+ 
 struct Person{
     first_name: String,
     last_name: String
