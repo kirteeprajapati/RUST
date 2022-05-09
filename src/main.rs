@@ -6,6 +6,7 @@ mod tuples;
 mod arrays;
 mod vectors;
 mod conditionals;
+mod structs;
 
 fn main() {
     print:: run();
@@ -16,4 +17,5 @@ fn main() {
     arrays::arrays();
     vectors::vectors();
     conditionals::conditionals();
+    structs::structs();
 }
