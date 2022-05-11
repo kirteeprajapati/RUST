@@ -25,6 +25,6 @@ pub fn conditionals(){
     let is_of_age = if age>=18{true} else{false};
     println!("Is an Adult: {}", is_of_age);
 
-    // end of line
+    // end of line 
     println!("=========================Conditionals.rs ends here========================\n")
 }
